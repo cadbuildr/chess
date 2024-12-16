@@ -10,12 +10,13 @@ from cadbuildr.foundation import (
     Sketch,
     Extrusion,
 )
-from chess.bishop import Bishop
-from chess.king import King
-from chess.knight import Knight
-from chess.pawn import Pawn
-from chess.queen import Queen
-from chess.rook import Rook
+
+from chess.bishop_part import Bishop
+from chess.king_part import King
+from chess.knight_part import Knight
+from chess.pawn_part import Pawn
+from chess.queen_part import Queen
+from chess.rook_part import Rook
 
 
 class ChessBoard(Assembly):
